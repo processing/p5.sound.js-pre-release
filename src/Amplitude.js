@@ -18,7 +18,7 @@ import { Context as ToneContext } from "tone/build/esm/core/context/Context.js";
  *   
  * function preload() {
  *   //replace this sound with something local with rights to distribute
- *   sound = loadSound('https://tonejs.github.io/audio/berklee/gong_1.mp3');
+ *   sound = loadSound('assets/Damscray_DancingTiger.mp3');
  * }
  * 
  * function setup() {

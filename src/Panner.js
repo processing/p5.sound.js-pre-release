@@ -18,7 +18,7 @@ import { clamp } from './Utils';
  * let panner, lfo, soundfile, cnv;
  * 
  * function preload() {
- *   soundfile = loadSound('https://tonejs.github.io/audio/berklee/gong_1.mp3');
+ *   soundfile = loadSound('assets/beat.mp3');
  * }
  * 
  * function setup() {

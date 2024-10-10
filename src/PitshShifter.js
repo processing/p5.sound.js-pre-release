@@ -17,7 +17,7 @@ import { PitchShift as TonePitchShift } from "tone/build/esm/effect/PitchShift.j
  *  let cnv, soundFile, pitchShifter;
  *  
  * function preload() {
- *   soundFile = loadSound('assets/gtrSample.mp3');
+ *   soundFile = loadSound('assets/beatbox.mp3');
  * }
  *  
  * function setup() {

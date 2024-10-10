@@ -31,7 +31,7 @@ import { Player as TonePlayer } from "tone/build/esm/source/buffer/Player.js";
  *  <div><code>
  *  let mySound;
  *  function preload() {
- *    mySound = loadSound('assets/doorbell');
+ *    mySound = loadSound('assets/doorbell.mp3');
  *  }
  *
  *  function setup() {
@@ -70,7 +70,7 @@ function loadSound (path) {
  * function preload() {
  *   //replace this sound with something local with rights to distribute
  *   //need to fix local asset loading first though :) 
- *   sound = loadSound('https://tonejs.github.io/audio/berklee/gong_1.mp3');
+ *   sound = loadSound('assets/doorbell.mp3');
  * }
  * 
  * function setup() {
@@ -155,7 +155,7 @@ class SoundFile {
    * let player;
    *
    * function preload() {
-   *   player = loadSound('https://tonejs.github.io/audio/berklee/gong_1.mp3');
+   *   player = loadSound('assets/Damscray_DancingTiger.mp3');
    * }
    * 
    * function setup() {
@@ -241,7 +241,7 @@ class SoundFile {
    * let soundSource, cnv, btn;
    *
    * function preload() {
-   *   soundSource = loadSound('https://tonejs.github.io/audio/berklee/gong_1.mp3');
+   *   soundSource = loadSound('assets/Damscray_-_Dancing_Tiger_01.mp3');
    * }
    * 
    * function setup() {
@@ -266,7 +266,7 @@ class SoundFile {
    * function setNewPath() {
    *   background(220);
    *   text('a new sound was loaded', 0, 20, 100);
-   *   soundSource.setPath('https://tonejs.github.io/audio/berklee/gong_2.mp3', playSound); 
+   *   soundSource.setPath('assets/Damscray_-_Dancing_Tiger_02.mp3', playSound); 
    * }
    * </code>
    * </div>
@@ -356,7 +356,7 @@ class SoundFile {
    * let player;
    *
    * function preload() {
-   *   player = loadSound('https://tonejs.github.io/audio/berklee/gong_1.mp3');
+   *   player = loadSound('assets/lucky_dragons_-_power_melody.mp3');
    * }
    * 
    * function setup() {
@@ -399,7 +399,7 @@ class SoundFile {
    * let player;
    *
    * function preload() {
-   *   player = loadSound('https://tonejs.github.io/audio/berklee/gong_1.mp3');
+   *   player = loadSound('assets/lucky_dragons_-_power_melody.mp3');
    * }
    * 
    * function setup() {
